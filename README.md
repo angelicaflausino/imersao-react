@@ -1,5 +1,5 @@
 
-# Imersão React Aula 1 - React Components
+# Imersão React 
 
 ## Instalação
 
