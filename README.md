@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Imersão React Aula 1 - React Components
 
-In the project directory, you can run:
+## Instalação
 
-### `npm start`
+ Requisitos: 
+ - Node.js 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**JSX**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[J]ava[S]cript  [X]ML
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## AULA 1 - React Components e AluraFlix
 
-### `npm run build`
+**Criando o projeto**
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    npm create-react-app my-app
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ Adicionado link Google Fonts 'Roboto' em **public/index.hml**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Styled Components**
 
-### `npm run eject`
+    npm install styled-components
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Aula 2 - Roteamento e State
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Router Dom**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    npm install react-router-dom
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- incluir as rotas no arquivo index.js na raiz do src. É o arquivo que pega o root no public/index.hml e coloca renderiza o react dentro da div.
 
-## Learn More
+- **destruction react function({ children})**: Expande o objeto que é passado na função
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Aula 3 - Formulários e Componentes**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **State** - Controle do estado do valor, armazena os valores iniciais
 
-### Code Splitting
+- Importar da função do React useState:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+      import React, { useState } from 'react';
 
-### Analyzing the Bundle Size
+- React só renderiza na tela oq é necessário e compara a versão dos estados
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Aula 4 - Ajax e Validação Javascript
 
-### Making a Progressive Web App
+- **ESLINT - Validação código javascript**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+    npx eslint --init
 
-### Advanced Configuration
+- **PropTypes - Tipagem e validação**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+    npm install prop-types 
 
-### Deployment
+- **Json Server - API REST**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+    npm install json-server
 
-### `npm run build` fails to minify
+- **Concurrently:** utilizado para rodar dois ou mais comandos para inicial a aplicação server / front
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    npm install concurrently
+
+- **useEffect**  É utilizado quando a gente quer que um efeito colateral aconteça. Possui dois parametros:
+ 1º - Função que a gente quer que aconteça
+ 2º - Quando a gente quer que aconteça (pode ser opcional) [] (Array vazio)
+ 
+- **Heroku** - Plataforma que pode ser utilizada para disponibilizar o back-end da aplicação
