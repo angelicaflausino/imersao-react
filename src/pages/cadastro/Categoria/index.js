@@ -30,7 +30,8 @@ function CadastroCategoria(){
   }
 
   useEffect(() => {
-    const URL_CATEGORIAS = 'http://localhost:8080/categorias';
+    const isLocal = window.location.hostname.includes('localhost');
+    const URL_CATEGORIAS = isLocal ? 'http://localhost:8080/categorias' : 'https://bugflix.herokuapp.com/categorias';
     fetch(URL_CATEGORIAS)
     .then(async (response) => {
       const data = await response.json();
