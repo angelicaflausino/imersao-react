@@ -1,34 +1,212 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "A Culpa é do Back-End",
-            "descricao": "Não existe BUG! Existe Feature...",
-            "cor": "#6BD1FF"
-        },
-        {
-            "id": 2,
-            "nome": "10 Coisas que eu odeio em Javascript",
-            "descricao": "A cada 10 minutos um novo Framework pra aprender",
-            "cor": "#9CD33B"
-        },
-        {
-            "id": 3,
-            "nome": "Querido CSharp",
-            "descricao": "A melhor linguagem de programação! Polêmica...",
-            "cor": "#FFA500"
-        },
-        {
-            "id": 4,
-            "nome": "O Diabo programa em Java",
-            "descricao": "Para os Javeiros de Plantão",
-            "cor": "#dc1a28"
-        },
-        {
-            "id": 5,
-            "nome": "Distribua-me se for capaz",
-            "descricao": "Microsserviços: Não distribua!",
-            "cor": "#6b5be2"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "A Culpa é do Back-End",
+      "descricao": "Não existe BUG! Existe Feature...",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "#NaMinhaMaquinaFunciona",
+        "url": "https://www.youtube.com/watch?v=E1AKLEVBJ_o"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "10 Coisas que eu odeio em Javascript",
+      "descricao": "A cada 10 minutos um novo Framework pra aprender",
+      "cor": "#9CD33B",
+      "link_extra": {
+        "text": "#MaisUmFramework",
+        "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Querido CSharp",
+      "descricao": "A melhor linguagem de programação! Polêmica...",
+      "cor": "#FFA500",
+      "link_extra": {
+        "text": "#MelhorQueJava",
+        "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "O Diabo programa em Java",
+      "descricao": "Para os Javeiros de Plantão",
+      "cor": "#dc1a28",
+      "link_extra": {
+        "text": "#Javeiros",
+        "url": "https://www.youtube.com/watch?v=90NcVNsKGik"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Distribua-me se for capaz",
+      "descricao": "Microsserviços: Não distribua!",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "#SóFuncionaNaNetFlix",
+        "url": "https://www.youtube.com/watch?v=jSnLOoGjQ80"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 11,
+      "categoriaId": 1,
+      "titulo": "10 frases toscas que desenvolvedores falam",
+      "url": "https://www.youtube.com/watch?v=E1AKLEVBJ_o"
+    },
+    {
+      "id": 12,
+      "categoriaId": 1,
+      "titulo": "O que é Biblioteca, Framework e API?",
+      "url": "https://www.youtube.com/watch?v=F0H4HPXdZog"
+    },
+    {
+      "id": 13,
+      "categoriaId": 1,
+      "titulo": "Como posso aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw"
+    },
+    {
+      "id": 14,
+      "categoriaId": 1,
+      "titulo": "O que é SQL e NoSQL?",
+      "url": "https://www.youtube.com/watch?v=aure5d3B88g"
+    },
+    {
+      "id": 15,
+      "categoriaId": 1,
+      "titulo": "Qual é a melhor linguagem de programação?",
+      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+    },
+    {
+      "id": 21,
+      "categoriaId": 2,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": 22,
+      "categoriaId": 2,
+      "titulo": "Como fazer um React e aprender a ideia do Virtual DOM na prática",
+      "url": "https://www.youtube.com/watch?v=5MzOCxSWrrc"
+    },
+    {
+      "id": 23,
+      "categoriaId": 2,
+      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
+      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+    },
+    {
+      "id": 24,
+      "categoriaId": 2,
+      "titulo": "Componentização com VanillaJS #AluraMais",
+      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+    },
+    {
+      "id": 25,
+      "categoriaId": 2,
+      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+    },
+    {
+      "id": 31,
+      "categoriaId": 3,
+      "titulo": "O que é o C#?",
+      "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA"
+    },
+    {
+      "id": 32,
+      "categoriaId": 3,
+      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados",
+      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+    },
+    {
+      "id": 33,
+      "categoriaId": 3,
+      "titulo": "Design Patterns C#",
+      "url": "https://www.youtube.com/watch?v=Z2ScCR1tyzU"
+    },
+    {
+      "id": 34,
+      "categoriaId": 3,
+      "titulo": "O que é REST?",
+      "url": "https://www.youtube.com/watch?v=weQ8ssA6iBU"
+    },
+    {
+      "id": 35,
+      "categoriaId": 3,
+      "titulo": "Criando sua primeira aplicação .NET Core no Linux",
+      "url": "https://www.youtube.com/watch?v=UZQqXPuKr1s"
+    },
+    {
+      "id": 41,
+      "categoriaId": 4,
+      "titulo": "O que é o Java?",
+      "url": "https://www.youtube.com/watch?v=90NcVNsKGik"
+    },
+    {
+      "id": 42,
+      "categoriaId": 4,
+      "titulo": "Tudo sobre Java 8",
+      "url": "https://www.youtube.com/watch?v=UZaKFZHrnag"
+    },
+    {
+      "id": 43,
+      "categoriaId": 4,
+      "titulo": "O que é Spring Framework?",
+      "url": "https://www.youtube.com/watch?v=5XPojnx9bb8"
+    },
+    {
+      "id": 44,
+      "categoriaId": 4,
+      "titulo": "DevOps e Ecosistema Java - Conexão Java",
+      "url": "https://www.youtube.com/watch?v=2Gmiqssml8I"
+    },
+    {
+      "id": 45,
+      "categoriaId": 4,
+      "titulo": "Java é lento? JIT e Otimizações na Java Virtual Machine",
+      "url": "https://www.youtube.com/watch?v=rrhO_P0IM3s"
+    },
+    {
+      "id": 51,
+      "categoriaId": 5,
+      "titulo": "O que são Microsserviços? (Microservices)",
+      "url": "https://www.youtube.com/watch?v=jSnLOoGjQ80"
+    },
+    {
+      "id": 52,
+      "categoriaId": 5,
+      "titulo": "O que é Kafka?",
+      "url": "https://www.youtube.com/watch?v=Z2ScCR1tyzU"
+    },
+    {
+      "id": 53,
+      "categoriaId": 5,
+      "titulo": "Como rodar MySQL com Docker?",
+      "url": "https://www.youtube.com/watch?v=UZQqXPuKr1s"
+    },
+    {
+      "id": 54,
+      "categoriaId": 5,
+      "titulo": "Começando com Kafka",
+      "url": "https://www.youtube.com/watch?v=aaCqcX30pzc"
+    },
+    {
+      "id": 55,
+      "categoriaId": 5,
+      "titulo": "O que é Devops?",
+      "url": "https://www.youtube.com/watch?v=3_k2GVkMt30"
+    },
+    {
+      "titulo": "O que é Cloud?",
+      "url": "https://www.youtube.com/watch?v=wev9fMrg-TU",
+      "categoriaId": 5,
+      "id": 56
+    }
+  ]
 }
